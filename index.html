@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Flashcards</title>
+    <link rel="stylesheet" href= "style.css">
+</head>
+<body>
+    <header>
+        <h1>Language Flashcards</h1>
+    </header>
+    <main>
+        <div class="control-panel">
+            <select id="language-select">
+                <option value="english">English</option>
+                <option value="turkish">Turkish</option>
+                <option value="german">German</option>
+            </select>
+            <button id="flip-btn">Flip Card</button>
+            <button id="next-btn">Next</button>
+            <button id="shuffle-btn">Shuffle</button>
+        </div>
+        <div class="flashcard">
+            <p id="word-display"></p>
+            <p id="translation-display"></p>
+        </div>
+        <p id="progress-tracker">Card 1/10</p>
+        <button id="reset-btn">Reset</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
